@@ -90,12 +90,6 @@
 .card-tertiary {
   @include card-variant($brand-tertiary, $brand-tertiary);
 }
-.card-quaternary {
-  @include card-variant($brand-quaternary, $brand-quaternary);
-}
-.card-quinary {
-  @include card-variant($brand-quinary, $brand-quinary);
-}
 .card-success {
   @include card-variant($brand-success, $brand-success);
 }
@@ -112,6 +106,12 @@
 // Remove all backgrounds
 .card-outline-primary {
   @include card-outline-variant($btn-primary-bg);
+}
+.card-outline-secondary {
+  @include card-outline-variant($btn-secondary-bg);
+}
+.card-outline-tertiary {
+  @include card-outline-variant($btn-tertiary-bg);
 }
 .card-outline-info {
   @include card-outline-variant($btn-info-bg);

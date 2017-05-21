@@ -1,7 +1,3 @@
-// --------------------------------------------------
-// Mixins
-// --------------------------------------------------
-
 // Card mixin
 @mixin card-border-radius($radius: $border-radius) {
   border-radius: $radius;

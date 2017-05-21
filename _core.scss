@@ -1,3 +1,23 @@
+// |--------------------------------------------------------------------------
+// | Card
+// |--------------------------------------------------------------------------
+// |
+// | This file contains styles for the following:
+// | - .card
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+@import "variables";
+
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+@import "mixins";
+
 // --------------------------------------------------
 // Styling
 // --------------------------------------------------
@@ -131,24 +151,13 @@
 // --------------------------------------------------
 
 // Mobile - and up
-@include media-breakpoint-up(xs) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-mobile-and-up} {}
 
 // Mobile - only
-@include media-breakpoint-only(xs) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-mobile-only} {}
 
 // Tablet - and up
-@include media-breakpoint-up(sm) {
-
-  // Card
-  .card {}
+@media #{$breakpoint-tablet-and-up} {
 
   // Columns
   .card-columns {
@@ -162,50 +171,22 @@
 }
 
 // Tablet - only
-@include media-breakpoint-only(sm) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-tablet-only} {}
 
 // Desktop - and up
-@include media-breakpoint-up(md) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-desktop-and-up} {}
 
 // Desktop - only
-@include media-breakpoint-only(md) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-desktop-only} {}
 
 // Large desktop - and up
-@include media-breakpoint-up(lg) {
-
-  // Card
-  .card {}
-}
+@media #{$breakpoint-large-desktop-and-up} {}
 
 // Print
-@media print {
-
-  // Card
-  .card {}
-}
+@media print {}
 
 // Touch
-.touchevents {
-
-  // Card
-  .card {}
-}
+.touchevents {}
 
 // No touch
-.no-touchevents {
-
-  // Card
-  .card {}
-}
+.no-touchevents {}
